@@ -1,0 +1,30 @@
+body {
+    background-color: #2db94c;
+    color: white;
+ }
+*{
+    margin: 200;
+    padding: 100;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box-degrade{
+    width: 100%;
+    padding: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, rgb(9, 161, 9), rgb(30, 253, 0), rgb(162, 235, 144), white);
+   background-size: 500% 100%;
+   animation: degrede-animado 6s  infinite alternate ;
+}
+
+@keyframes degrede-animado {
+    0%{ 
+        background-position: 0%;
+    }
+    100%{
+        background-position: 100%;
+    }
+}
