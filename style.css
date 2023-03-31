@@ -1,7 +1,75 @@
 body {
-    background-color: #2db94c;
-    color: white;
+    background-image: linear-gradient(to left, rgb(206, 255, 206), rgb(206, 252, 208));
+   background-size: 500% 100%;
+   animation: degrede-animado 6s  infinite alternate ;
+    color: black;
  }
+
+ .cabecalho{
+    color: black;
+    display:flex;
+    justify-content: space-around;
+    padding: 24px 0;
+    font-size: 24px;
+}
+
+ .cabecalho-imagem{
+    width: 20%;
+
+ }
+ .cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    padding: 24px 0;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        }
+
+ .topo {
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(to left, rgb(205, 255, 186), rgb(206, 255, 194));
+   background-size: 500% 100%;
+   animation: degrede-animado 6s  infinite alternate ;
+    color: black;
+       }
+
+  main {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to left, rgb(206, 255, 194)85, rgb(206, 245, 201)));
+   background-size: 500% 100%;
+   animation: degrede-animado 6s  infinite alternate ;
+    color: black;
+  }
+  section, aside {
+    width: 45%;
+  }
+  section header {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(0, 255, 55);
+  }
+  section div {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  }
+  aside header {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(0, 255, 0);
+  }
+  aside div {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  }
 *{
     margin: 200;
     padding: 100;
@@ -15,7 +83,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to left, rgb(9, 161, 9), rgb(30, 253, 0), rgb(162, 235, 144), white);
+    background-image: linear-gradient(to left, rgb(9, 161, 9));
    background-size: 500% 100%;
    animation: degrede-animado 6s  infinite alternate ;
 }
