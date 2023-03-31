@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to left, rgb(206, 255, 206), rgb(206, 252, 208));
+    background-image: linear-gradient(to left, #01fd23, #01fd23);
    background-size: 500% 100%;
    animation: degrede-animado 6s  infinite alternate ;
     color: black;
@@ -28,7 +28,7 @@ body {
         padding: 0;
         }
 .escola {
-        background-image: linear-gradient(#086305,#01fd23);
+        background-image: linear-gradient(#01fd23,#01fd23);
         color: black;
         display:flex;
         align-items: center;
