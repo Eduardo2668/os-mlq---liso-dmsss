@@ -1,0 +1,97 @@
+.body {
+    background-image: linear-gradient(to left, #66ff00, #66ff00);
+   background-size: 500% 100%;
+   animation: degrede-animado 6s  infinite alternate ;
+    color: black;
+ } 
+ .cabecalho{
+    background-image: linear-gradient(#acff74,#acff74);
+        color: black;
+        display:flex;
+        align-items: center;
+        padding: 24px 0;
+    color: black;
+    display:flex;
+    justify-content: space-around;
+    padding: 0px 25px;
+    font-size: 22px;
+}
+
+ .cabecalho-imagem{
+    width: 40%;
+
+ }
+ .cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    padding: 70px 0;
+    }
+    
+ .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 20px;
+  }
+  .nav {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+    
+    * {
+        margin: 0;
+        padding: 0;
+        }
+        
+.escola {
+        background-image: linear-gradient(#acff74,#8dff5f);
+        color: black;
+        display:flex;
+        align-items: center;
+        padding: 24px 0;
+                }
+
+.imagem-escola{
+            width: 120px;
+
+            }
+
+.escola-conteudo{
+          width: 35%;
+          justify-content: center;
+          align-items: center; }
+          
+.escola-testo-um{
+    color: black;
+    display:flex;
+    justify-content: space-around;
+    padding: 24px 0;
+    font-size: 24px;
+}
+
+.box-degrade{
+    width: 100%;
+    padding: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, rgb(9, 161, 9)#afff90);
+   background-size: 500% 100%;
+   animation: degrede-animado 6s  infinite alternate ;
+}
+
+
+
+@keyframes degrede-animado {
+    0%{ 
+        background-position: 0%;
+    }
+    100%{
+        background-position: 100%;
+    }
+}
